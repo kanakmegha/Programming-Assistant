@@ -5,7 +5,7 @@ app = Flask(__name__, static_folder="frontend")
 
 
 
-API_KEY="qavtgcGD.YiLCZfeRG1Rddzu360mYqB1WHNnbrpfK"
+API_KEY=""
 URL="https://payload.vextapp.com/hook/RZ7RL86F2P/catch/hello"
 @app.route("/")
 def serve_index():
